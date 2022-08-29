@@ -1,1 +1,1 @@
-# Domnios-CLI
+# Dominos-CLI
