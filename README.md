@@ -43,7 +43,6 @@ Navigate back to the root directory
 
 ```
 cd ..
-cd ..
 ```
 
 in terminal type the following to order pizza!
