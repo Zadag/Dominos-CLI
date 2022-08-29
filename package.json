@@ -1,0 +1,28 @@
+{
+  "name": "dominos-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zadag/Dominos-CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zadag/Dominos-CLI/issues"
+  },
+  "homepage": "https://github.com/Zadag/Dominos-CLI#readme",
+  "bin": {
+    "dominos": "bin/index.js"
+  },
+  "dependencies": {
+    "config": "^3.3.7",
+    "dominos": "^3.3.1"
+  }
+}
