@@ -35,7 +35,7 @@ Open default.json, paste the following block of code and enter your credentials
     "expiration": "",
     "securityCode": "",
     "postalCode": "",
-    "timAmount": 5
+    "tipAmount": 5
 }
 ```
 

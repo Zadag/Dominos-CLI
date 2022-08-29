@@ -7,8 +7,8 @@ console.log('hello world');
 // Large Cheese Pizza with peperoni and jalopenos 
 const pizza=new Item(
     {
-        //16 inch hand tossed crust
-        code:'16SCREEN',
+        //14 inch hand tossed crust
+        code:'14SCREEN',
         options:{
             //sauce, whole pizza : normal
             X: {'1/1' : '1'}, 
@@ -42,7 +42,7 @@ for (const store of nearbyStores.stores) {
         store.IsOnlineCapable
         && store.IsDeliveryStore
         && store.IsOpen
-        && store.ServiceIsOpen.IsDeliveryStore
+        && store.ServiceIsOpen.Delivery
         && store.MinDistance < distance
     ){
         distance = store.MinDistance;
