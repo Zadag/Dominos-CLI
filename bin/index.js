@@ -30,9 +30,11 @@ const customer = new Customer({
     email: config.get('email')
 });
 
+console.log(customer.address);
+
 const nearbyStores = await new NearbyStores(customer.address);
-let storeID;
-let distance;
+let storeID = 0;
+let distance = 20;
 console.log(nearbyStores);
 for (const store of nearbyStores.stores) {
     console.log("checking stores")
@@ -49,7 +51,8 @@ for (const store of nearbyStores.stores) {
     };
 };
 // if nearbyStores.stores returns an empty array 
-if (storeID === 0 || !storeID) {
+console.log(storeID);
+if (storeID === 0) {
     throw ReferenceError('No Stores found');
 }
 
